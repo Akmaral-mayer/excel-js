@@ -1,0 +1,31 @@
+{
+  "name": "excel-course",
+  "version": "1.0.0",
+  "description": "Pure JS Excel Application",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akmaral-mayer/excel-js.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "excel"
+  ],
+  "author": "Akmaral Islamova <akmaralslmv@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Akmaral-mayer/excel-js/issues"
+  },
+  "homepage": "https://github.com/Akmaral-mayer/excel-js#readme",
+  "private": true,
+  "devDependencies": {
+    "webpack": "^5.13.0",
+    "webpack-cli": "^4.3.1"
+  }
+}
