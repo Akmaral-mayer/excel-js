@@ -9,7 +9,9 @@
     "semi": "off",
     "arrow-parens": "off",
     "comma-dangle": "off",
-    "require-jsdoc": "off"
+    "require-jsdoc": "off",
+    "quotes": "off",
+    "eol-last": "off"
   },
   "extends": [
     "eslint:recommended",
