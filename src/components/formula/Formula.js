@@ -11,10 +11,16 @@ export class Formula extends ExcelComponent {
   }
 
   toHTML() {
-    return `<div class="info">fx</div>`
+    return `<div class="info">fx</div>
+    <div class="input" contenteditable spellcheck="false"></div>`
   }
 
   onInput(event) {
-    console.log('Formula: onInput', event)
+    console.log(this.$root)
+    console.log('Formula: onInput', event.target.textContent.trim())
+  }
+
+  onClick() {
+
   }
 }
