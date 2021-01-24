@@ -6,6 +6,6 @@ export class Table extends ExcelComponent {
 
   toHTML() {
     // eslint-disable-next-line no-undef
-    return createTable()
+    return createTable(25)
   }
 }
