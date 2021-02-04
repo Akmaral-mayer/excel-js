@@ -4,8 +4,8 @@ import {Emitter} from "@core/Emitter";
 export class Excel {
   constructor(selector, options) {
     this.$el = $(selector)
+    this.store = options.store
     this.components = options.components || []
-    // eslint-disable-next-line no-undef
     this.emitter = new Emitter()
   }
 
@@ -13,7 +13,8 @@ export class Excel {
     const $root = $.create('div', 'excel')
 
     const componentOptions = {
-      emitter: this.emitter
+      emitter: this.emitter,
+      store: this.store
     }
 
     this.components = this.components.map(Component => {
