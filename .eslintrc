@@ -12,7 +12,8 @@
     "require-jsdoc": "off",
     "quotes": "off",
     "eol-last": "off",
-    "operator-linebreak": "off"
+    "operator-linebreak": "off",
+    "indent": "off"
   },
   "extends": [
     "eslint:recommended",
